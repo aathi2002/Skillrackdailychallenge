@@ -4,41 +4,41 @@
 
 
 
-The program must accept a string S and an integer N as the input. The program must print the characters occurring at least N times in the string S (in the order of their occurrence) as the output. If there is no such character in S then the program must print -1 as the output.
+// The program must accept a string S and an integer N as the input. The program must print the characters occurring at least N times in the string S (in the order of their occurrence) as the output. If there is no such character in S then the program must print -1 as the output.
 
-Boundary Condition(s):
+// Boundary Condition(s):
 
-1 <= Length of S <= 1000
+// 1 <= Length of S <= 1000
 
-2 <= N <= 100
+// 2 <= N <= 100
 
-Input Format:
+// Input Format:
 
-The first line contains S. The second line contains N.
+// The first line contains S. The second line contains N.
 
-Output Format:
+// Output Format:
 
-The first line contains the characters occurring at least N times in the string S or -1.
+// The first line contains the characters occurring at least N times in the string S or -1.
 
-Example Input/Output 1: Input: waterbottle
+// Example Input/Output 1: Input: waterbottle
 
-2
+// 2
 
-Output:
+// Output:
 
-te
+// te
 
-Explanation: In the string "waterbottle", the character 't' occurs three times and 'e' occurs two times.
+// Explanation: In the string "waterbottle", the character 't' occurs three times and 'e' occurs two times.
 
-Hence the output is te
+// Hence the output is te
 
-Example Input/Output 2: Input: celebration
+// Example Input/Output 2: Input: celebration
 
-3
+// 3
 
-Output:
+// Output:
 
--1
+// -1
 
 import java.util.*;
 public class Hello {
